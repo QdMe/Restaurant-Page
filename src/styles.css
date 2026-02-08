@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+  font-size: 1.3rem;
+}
+:root {
+  --lightyellow: #f1eb31;
+  --darkyellow: #ffc632;
+  --lightred: #ce3737;
+  --darkred: #972f2f;
+  --grey: rgb(255, 255, 255);
+}
+p {
+  max-inline-size: 66ch;
+  line-height: 1.65;
+}
+/* Header */
+header {
+  padding: 2rem;
+  background-color: var(--lightred);
+  margin-bottom: 2rem;
+  border-bottom: 0.2rem solid var(--lightyellow);
+}
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+button {
+  padding: 1rem 2rem;
+  background-color: var(--darkyellow);
+  border: none;
+  border-radius: 0.2rem;
+  font-weight: bold;
+  color: var(--darkred);
+}
+button:hover {
+  color: white;
+  background-color: var(--darkred);
+}
+/* Content */
+#content {
+  outline: 0.3rem solid var(--lightred);
+  margin: 0 auto;
+  padding: 2rem;
+  width: 60vw;
+  background-color: hsl(58, 100%, 94%);
+}
+h2 {
+  margin-bottom: 1rem;
+}
+h1,
+h2,
+.sect_title {
+  color: var(--darkred);
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.title {
+  text-align: center;
+  border-top: 0.3rem solid var(--darkyellow);
+  border-bottom: 0.3rem solid var(--darkyellow);
+  padding: 1rem;
+}
+.section {
+  margin-top: 1.5rem;
+}
+.sect_title {
+  color: var(--lightred);
+
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+img {
+  height: 8rem;
+  width: 8rem;
+  border-top: 0.4rem solid var(--darkyellow);
+}
+.item {
+  outline: 0.15rem solid var(--lightred);
+  background-color: var(--grey);
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: min-content 1fr min-content;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+li {
+  list-style: none;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+}
+.section {
+  text-align: center;
+}
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.menu .details {
+  /* align-items: stretch; */
+  display: grid;
+  grid-auto-flow: row;
+  gap: 2rem;
+  justify-content: stretch;
+}
+.about_item {
+  justify-self: start;
+}
+/* .pic {
+  width: 5rem;
+  height: 5rem;
+  background: url(./menu_pics/nuggets.jpg) center/cover;
+} */

@@ -1,0 +1,38 @@
+export function initLoad() {
+  return `
+
+      <div class="home">
+        <div class="title"><h1>AL-BAIK</h1></div>
+        <div class="main">
+          <div class="section">
+            <h2 class="sect_title about">About</h2>
+            <div class="details"><p>Founded in 1974 in Jeddah by visionary entrepreneur Shakour Abu Ghazalah, Albaik began as a humble pressure-fried chicken restaurant. Located on Old Airport Road, it introduced the Kingdom of Saudi Arabia to the broasted chicken concept. By 1986, Albaik had registered its trademark, becoming a symbol of quality, affordability, and innovation. Over the decades, it has expanded across Saudi Arabia, UAE, Bahrain, and beyond, winning the hearts of fast-food lovers everywhere.</p></div>
+          </div>
+
+          <div class="section">
+          <h2 class="sect_title hours">Hours</h2>
+            <div class="details">        <ul>
+          <li>Sunday: 8am - 8pm</li>
+          <li>Monday: 6am - 6pm</li>
+          <li>Tuesday: 6am - 6pm</li>
+          <li>Wednesday: 6am - 6pm</li>
+          <li>Thursday: 6am - 10pm</li>
+          <li>Friday: 6am - 10pm</li>
+          <li>Saturday: 8am - 10pm</li>
+        </ul></div>
+          </div>
+
+          <div class="section">
+          <h2 class="sect_title location">Location</h2>
+            <div class="details">
+        <p>Makkah:</p>
+        <ul>
+          <li>Near Masjid al-Haram & Clock Tower</li>
+          <li>Zamzam Tower area</li>
+          <li>Aziziyah</li>
+          <li>Jabal Omar</li>
+        </ul></div>
+          </div>
+        </div>
+      </div>`;
+}
