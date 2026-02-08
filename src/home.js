@@ -1,4 +1,4 @@
-export function initLoad() {
+export function loadHome() {
   return `
 
       <div class="home">

@@ -1,4 +1,4 @@
-export function contact() {
+export function loadContact() {
   return `<div class="title"><h1>Contact us</h1></div>
         <div class="main">
           <div class="section">

@@ -5,7 +5,7 @@ import double from "./menu_pics/double.jpeg";
 import fries from "./menu_pics/fries.jpg";
 import corn from "./menu_pics/corn.jpeg";
 console.log(nuggets);
-export function menu() {
+export function loadMenu() {
   return `
       <div class="menu">
         <div class="title"><h1>Menu</h1></div>
